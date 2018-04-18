@@ -29,8 +29,8 @@ type Bufferer interface {
 
 // Init initializes termui library. This function should be called before any others.
 // After initialization, the library must be finalized by 'Close' function.
-func Init() error {
-	if err := tm.Init(); err != nil {
+func Init(n ...int) error {
+	if err := tm.Init(n...); err != nil {
 		return err
 	}
 
