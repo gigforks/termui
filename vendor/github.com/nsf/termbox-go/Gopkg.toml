@@ -33,11 +33,6 @@
   branch = "master"
   name = "github.com/mitchellh/go-wordwrap"
 
-[[constraint]]
-  branch = "master"
-  name = "github.com/nsf/termbox-go"
-  source = "git@github.com:gigforks/termui.git"
-
 [prune]
   go-tests = true
   unused-packages = true
