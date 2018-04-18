@@ -36,7 +36,7 @@
 [[constraint]]
   branch = "master"
   name = "github.com/nsf/termbox-go"
-  source = "git@github.com:gigforks/termui.git"
+  source = "git@github.com:gigforks/termbox-go.git"
 
 [prune]
   go-tests = true

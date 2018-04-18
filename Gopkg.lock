@@ -27,8 +27,8 @@
   branch = "master"
   name = "github.com/nsf/termbox-go"
   packages = ["."]
-  revision = "095ccee915b5e712c9c06080f6f53de2ff06fd8a"
-  source = "git@github.com:gigforks/termui.git"
+  revision = "cf887c33c46a06b7cfad542c2de84ba05f548a43"
+  source = "git@github.com:gigforks/termbox-go.git"
 
 [[projects]]
   name = "github.com/pmezard/go-difflib"
@@ -48,6 +48,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "b5b0ebd9f0b9bfce5dd4face353e90345b2a4dfc2ed6e2b8bb6c0462a1852800"
+  inputs-digest = "eb6c0a2ac4809d7e6d903d55a972ee0ee4ce0f45af8610a4a7302b86f4040823"
   solver-name = "gps-cdcl"
   solver-version = 1
