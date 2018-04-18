@@ -8,9 +8,10 @@
   version = "v1.1.0"
 
 [[projects]]
+  branch = "master"
   name = "github.com/maruel/panicparse"
   packages = ["stack"]
-  revision = "ad661195ed0e88491e0f14be6613304e3b1141d6"
+  revision = "4417700b5a8d33fbb4416bb04359d20329f60008"
 
 [[projects]]
   name = "github.com/mattn/go-runewidth"
@@ -48,6 +49,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "eb6c0a2ac4809d7e6d903d55a972ee0ee4ce0f45af8610a4a7302b86f4040823"
+  inputs-digest = "56e268a37a380ce3f96e11e7fbf5b6506741bf6d83895abc4c13b0bc264bd518"
   solver-name = "gps-cdcl"
   solver-version = 1

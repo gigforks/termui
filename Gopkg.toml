@@ -38,6 +38,10 @@
   name = "github.com/nsf/termbox-go"
   source = "git@github.com:gigforks/termbox-go.git"
 
+[[constraint]]
+  name = "github.com/maruel/panicparse"
+  branch = "master"
+
 [prune]
   go-tests = true
   unused-packages = true
